@@ -10,6 +10,6 @@ public class Mp3UtilTest {
     @Test
     void getArtist_shouldBe_KraftClub() {
         String artist = Mp3Util.getArtist(Paths.get("./my.mp3"));
-        Assertions.assertEquals("Maaarrrcoooo", artist);
+        Assertions.assertEquals("Miguel", artist);
     }
 }
